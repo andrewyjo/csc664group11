@@ -74,7 +74,7 @@ main{
 
 
 h2{
-  color: #ed666f;
+  color: black;
   font-weight: 500;
 }
 
@@ -175,7 +175,6 @@ h3{
 html, body {
   position: relative;
   height: 100%;
-  overflow: hidden;
   background: #eee;
 }
 body {

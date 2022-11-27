@@ -14,7 +14,7 @@ import "./App.css";
 //    database: "smartmediainterface",
 //});
 
-const events = [
+const events =[
     {
         date: new Date(2013, 9, 27),
         text: "Sed leo elit, pellentesque sit amet congue quis, ornare nec lorem.",
@@ -96,7 +96,7 @@ function App() {
         <div className="App">
             <h1>intelligent multimedia interface</h1>
             <Gallery images={images} />
-            {/* <Timeline events={events} /> */}
+            <Timeline events={events} />
             <main>
                 <h1>Events</h1>
                 <div>
@@ -109,7 +109,7 @@ function App() {
 
                 <section>
                     <h2>2 December</h2>
-                    <h2>{backendData.users}</h2>
+                    <h2>{backendData.users} </h2>
                     <div class="grid-wrapper">
                         <article>
                             <h3>9:00 AM</h3>
