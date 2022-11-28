@@ -57,6 +57,7 @@ img{
   @media screen and (max-width: 599px){
     height: 250px;
     object-fit: cover;
+    width:300px;
   }
 }
 body{

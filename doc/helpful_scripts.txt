@@ -15,3 +15,16 @@ for file in ./*; do  exiftool -mimetype# $file; done | awk '{print $4}' >> mimet
 
 
 I used vim to delete all overhead info in the txtfile and copied it directly into workbench
+
+
+VIM SCRIPTS(open the file and type the following char sequences without spaces)
+mimetypes.txt: stripping the /jpeg off of image/jpeg
+q 1 f / d $ esc j 0 q 100 @ 1
+
+
+CREATE USER 'tester00'@'localhost' IDENTIFIED BY 'Grapefruit123!@#';
+CREATE USER 'tester00'@'%' IDENTIFIED BY 'Grapefruit123!@#';
+GRANT ALL PRIVILEGES ON *.* TO 'tester00'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'tester00'@'localhost';
+FLUSH PRIVILEGES;
+exit
